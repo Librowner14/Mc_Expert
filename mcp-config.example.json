@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "mcdonalds": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "${MCD_MCP_PACKAGE}"
+      ],
+      "env": {
+        "MCD_MCP_TOKEN": "${MCD_MCP_TOKEN}",
+        "MCD_MCP_ENV": "${MCD_MCP_ENV}"
+      },
+      "disabled": false
+    }
+  }
+}
